@@ -11,8 +11,8 @@ int main() {
     int target;
     cin >> target;
 
-    int index = 4;   // it is 4 because of size of array 
-  // one more than index of array to insert in case target is greater than 3
+    int index = 4;   // it is 4 because of default size of array 
+  // one more than index of array to insert in case if target is greater than last element
   
 
     for(int i = 0; i < 4; i++) {
