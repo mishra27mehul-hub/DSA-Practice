@@ -2,7 +2,7 @@
 // Approach: Traverse array and compare each element with target
 // Time Complexity: O(n)
 // Space Complexity: O(1)
-#include<bits/stdc++.h>
+#include<iostream>
 
 using namespace std;
 
