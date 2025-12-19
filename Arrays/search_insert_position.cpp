@@ -11,7 +11,7 @@ int main() {
     int target;
     cin >> target;
 
-    int index = 4;   // it is 4 because of default size of array 
+    int index = 4;   // default size of array 
   // one more than index of array to insert in case if target is greater than last element
   
 
@@ -21,7 +21,7 @@ int main() {
             break;
         }
     }
-// break statement tells us to stop and print if we get desired target 
+// break statement to break the loop immediately
     cout << index;
     return 0;
 }
