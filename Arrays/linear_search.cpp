@@ -18,6 +18,7 @@ int main(){
     for(int i=0;i<4;i++){
          if(arr[i]==target){
             found=true;
+             break;
          }
     }
     if(found){
