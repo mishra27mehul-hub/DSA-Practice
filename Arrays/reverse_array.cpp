@@ -2,10 +2,8 @@
 // Approach: Two pointers using while loop
 // Time Complexity: O(n)
 // Space Complexity: O(1)
-
 #include <iostream>
 using namespace std;
-
 int main() {
     int n;
     cout << "Enter number of elements: ";
