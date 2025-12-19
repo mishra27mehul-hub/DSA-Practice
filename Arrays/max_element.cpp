@@ -18,7 +18,7 @@ int main(){
 
     int maxElement=arr[0];//first assume 1st element is max
 
-    for(int i=0;i<n;i++){//check others if they are larger
+    for(int i=;i<n;i++){//check others if they are larger
         if(maxElement<arr[i]){
             maxElement=arr[i];//update
 
