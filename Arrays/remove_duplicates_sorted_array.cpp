@@ -14,13 +14,13 @@ int main(){
     cin>>arr[i];
       }
 
-    int i=0;
+    int i=0;//slow pointer
 
-    for(int j=1;j<n;j++){
+    for(int j=1;j<n;j++){//fast pointer
         if(arr[j]!=arr[i]){
             i++;
 
-            arr[i]=arr[j];
+            arr[i]=arr[j];//updating value of ith index of an array
         }
        
         }
