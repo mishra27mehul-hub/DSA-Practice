@@ -1,7 +1,8 @@
 // Problem: Remove Duplicates from Sorted Array
 // Approach: Two pointers (overwrite duplicates in-place)
 // Time Complexity: O(n)
-// Space Complexity: O(1)#include<bits/stdc++.h>
+// Space Complexity: O(1)
+#include<bits/stdc++.h>
 using namespace std;
 int main(){
   
